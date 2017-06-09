@@ -456,7 +456,7 @@
 	window.Typed = Typed;
 
 	var defaults = {
-		strings: ["These are the default values...", "You know what you should do?", "Use your own!", "Have a great day!"],
+		strings: ["Data analyst", "Software Developer", "Entrepreneur", "Foodie", "Sports Fanatic","Book Reader"],
 		stringsElement: null,
 		// typing speed
 		typeSpeed: 0,
