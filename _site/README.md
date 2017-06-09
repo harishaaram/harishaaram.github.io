@@ -1,3 +1,3 @@
-# szeinali.github.io
+# harishaaram.github.io
 
-This is the github website that I am currently working on.
+My personal Webpage!
