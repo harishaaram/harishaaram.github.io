@@ -356,8 +356,7 @@
 
 		// Adds a CSS class to fade out current string
 		initFadeOut: function(){
-            var self;
-            self = this;
+			self = this;
 			this.el.className += ' ' + this.fadeOutClass;
 			this.cursor.className += ' ' + this.fadeOutClass;
 			return setTimeout(function() {
@@ -457,7 +456,7 @@
 	window.Typed = Typed;
 
 	var defaults = {
-		strings: ["Data analyst", "Software Developer", "Entrepreneur", "Foodie", "Sports Fanatic","Book Reader"],
+		strings: ["These are the default values...", "You know what you should do?", "Use your own!", "Have a great day!"],
 		stringsElement: null,
 		// typing speed
 		typeSpeed: 0,
