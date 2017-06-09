@@ -1,18 +1,18 @@
 # Site settings
-title: Sahand Zeinali
-description: Sahand Zeinali
+title: Harish Gandhi
+description: Harish Gandhi
 # baseurl: "/particle" # the subpath of your site, e.g. /blog
 # url: "localhost:3000" # the base hostname & protocol for your site e.g. http://willianjusten.com.br
 
 # User settings
-username: Sahand Zeinali
+username: Harish gandhi
 user_description: Machine Learning & Databases
 user_title:
-email: szeinali@hawk.iit.edu
-twitter_username: TheSandCloud
-linkedin_username: szeinali
-github_username:  szeinali
-instagram_username: sandcloud
+email: hramachandran@hawk.iit.edu
+twitter_username: Harishaaram91
+linkedin_username: Harish Gandhi
+github_username:  harishaaram
+instagram_username: harishaaram
 
 
 # Google-analytics
