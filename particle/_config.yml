@@ -5,14 +5,14 @@ description: A blog about lorem ipsum dolor sit amet
 # url: "localhost:3000" # the base hostname & protocol for your site e.g. http://willianjusten.com.br
 
 # User settings
-username: Harish gandhi
+username: Sahand Zeinali
 user_description: Machine Learning & Databases
-user_title: Harish gandhi
-email: hramachandran@hawk.iit.edu
-twitter_username: Harishaaram91
-linkedin_username: harish-gandhi
-github_username:  harishaaram
-instagram_username: harishaaram
+user_title: Software Developer
+email: szeinali@hawk.iit.edu
+twitter_username: TheSandCloud
+github_username:  szeinali
+instagram_username: sandcloud
+
 
 # Google-analytics
 google-analytics:
