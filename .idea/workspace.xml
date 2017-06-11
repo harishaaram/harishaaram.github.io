@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="184d8c31-be33-41a8-98cd-d1ff39b5a491" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/particle/.Rhistory" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/particle/assets/js/typed.js" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/particle/_config.yml" afterPath="$PROJECT_DIR$/particle/_config.yml" />
-    </list>
+    <list default="true" id="184d8c31-be33-41a8-98cd-d1ff39b5a491" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -695,12 +691,12 @@
       <workItem from="1496979084237" duration="2482000" />
       <workItem from="1496982885407" duration="59000" />
       <workItem from="1497005524449" duration="12145000" />
-      <workItem from="1497187104603" duration="40000" />
+      <workItem from="1497187104603" duration="615000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14726000" />
+    <option name="totallyTimeSpent" value="15301000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="-4" width="1535" height="904" extended-state="6" />
