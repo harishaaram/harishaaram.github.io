@@ -1,21 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="184d8c31-be33-41a8-98cd-d1ff39b5a491" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_includes/about.html" afterPath="$PROJECT_DIR$/_includes/about.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_includes/footer.html" afterPath="$PROJECT_DIR$/_includes/footer.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_includes/google-analytics.html" afterPath="$PROJECT_DIR$/_includes/google-analytics.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_includes/header.html" afterPath="$PROJECT_DIR$/_includes/header.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_includes/projects.html" afterPath="$PROJECT_DIR$/_includes/projects.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/abbrev/package.json" afterPath="$PROJECT_DIR$/node_modules/abbrev/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/accepts/package.json" afterPath="$PROJECT_DIR$/node_modules/accepts/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/acorn-jsx/package.json" afterPath="$PROJECT_DIR$/node_modules/acorn-jsx/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/acorn-object-spread/package.json" afterPath="$PROJECT_DIR$/node_modules/acorn-object-spread/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/acorn/package.json" afterPath="$PROJECT_DIR$/node_modules/acorn/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/after/package.json" afterPath="$PROJECT_DIR$/node_modules/after/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/particle/_config.yml" afterPath="$PROJECT_DIR$/particle/_config.yml" />
-    </list>
+    <list default="true" id="184d8c31-be33-41a8-98cd-d1ff39b5a491" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -630,15 +616,15 @@
       <workItem from="1497209757204" duration="155000" />
       <workItem from="1497209942576" duration="599000" />
       <workItem from="1497237520153" duration="724000" />
-      <workItem from="1497392213846" duration="1000" />
+      <workItem from="1497392213846" duration="124000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17599000" />
+    <option name="totallyTimeSpent" value="17722000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="64" y="-11" width="1537" height="912" extended-state="7" />
+    <frame x="64" y="-11" width="1537" height="912" extended-state="6" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
