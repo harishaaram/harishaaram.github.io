@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="184d8c31-be33-41a8-98cd-d1ff39b5a491" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/img/google-drive-logo-2014.jpg" afterPath="$PROJECT_DIR$/assets/img/google-drive-logo-2014.jpg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_includes/projects.html" afterPath="$PROJECT_DIR$/_includes/projects.html" />
     </list>
@@ -18,8 +19,8 @@
       <file leaf-file-name="projects.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/_includes/projects.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="320">
-              <caret line="16" column="119" lean-forward="false" selection-start-line="16" selection-start-column="119" selection-end-line="16" selection-end-column="119" />
+            <state relative-caret-position="420">
+              <caret line="24" column="10" lean-forward="true" selection-start-line="24" selection-start-column="10" selection-end-line="24" selection-end-column="10" />
               <folding />
             </state>
           </provider>
@@ -677,7 +678,7 @@
       <workItem from="1497483654149" duration="363000" />
       <workItem from="1497823124909" duration="599000" />
       <workItem from="1498261725790" duration="3383000" />
-      <workItem from="1499555658398" duration="2442000" />
+      <workItem from="1499555658398" duration="3257000" />
     </task>
     <task id="LOCAL-00001" summary="image resize">
       <created>1499557837455</created>
@@ -686,11 +687,18 @@
       <option name="project" value="LOCAL" />
       <updated>1499557837455</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="&quot;alt/src tag change&quot;">
+      <created>1499558300645</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1499558300645</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29706000" />
+    <option name="totallyTimeSpent" value="30521000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="75" y="34" width="1535" height="876" extended-state="0" />
@@ -733,7 +741,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="image resize" />
-    <option name="LAST_COMMIT_MESSAGE" value="image resize" />
+    <MESSAGE value="&quot;alt/src tag change&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;alt/src tag change&quot;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1084,8 +1093,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/_includes/projects.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="16" column="119" lean-forward="false" selection-start-line="16" selection-start-column="119" selection-end-line="16" selection-end-column="119" />
+        <state relative-caret-position="420">
+          <caret line="24" column="10" lean-forward="true" selection-start-line="24" selection-start-column="10" selection-end-line="24" selection-end-column="10" />
           <folding />
         </state>
       </provider>
