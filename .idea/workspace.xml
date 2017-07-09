@@ -19,7 +19,7 @@
         <entry file="file://$PROJECT_DIR$/_includes/projects.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="360">
-              <caret line="18" column="6" lean-forward="false" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="6" />
+              <caret line="18" column="8" lean-forward="true" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
               <folding />
             </state>
           </provider>
@@ -693,7 +693,7 @@
       <workItem from="1498261725790" duration="3383000" />
       <workItem from="1499555658398" duration="5859000" />
       <workItem from="1499572542195" duration="30000" />
-      <workItem from="1499572607677" duration="192000" />
+      <workItem from="1499572607677" duration="1168000" />
     </task>
     <task id="LOCAL-00001" summary="image resize">
       <created>1499557837455</created>
@@ -744,11 +744,18 @@
       <option name="project" value="LOCAL" />
       <updated>1499571874184</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="&lt;/div&gt; added">
+      <created>1499572816080</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1499572816080</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33345000" />
+    <option name="totallyTimeSpent" value="34321000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="34" width="1535" height="876" extended-state="0" />
@@ -797,7 +804,8 @@
     <MESSAGE value="jpg file added" />
     <MESSAGE value="chck image size" />
     <MESSAGE value="425X250 image resize" />
-    <option name="LAST_COMMIT_MESSAGE" value="425X250 image resize" />
+    <MESSAGE value="&lt;/div&gt; added" />
+    <option name="LAST_COMMIT_MESSAGE" value="&lt;/div&gt; added" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1149,7 +1157,7 @@
     <entry file="file://$PROJECT_DIR$/_includes/projects.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
-          <caret line="18" column="6" lean-forward="false" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="6" />
+          <caret line="18" column="8" lean-forward="true" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
           <folding />
         </state>
       </provider>
