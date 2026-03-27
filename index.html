@@ -1,265 +1,394 @@
-<!DOCTYPE HTML>
-<!--
-	Prologue by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1040005079454022"
-     crossorigin="anonymous"></script>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-128902298-1"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
+  <!-- Google Ads -->
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1040005079454022" crossorigin="anonymous"></script>
 
-        gtag('config', 'UA-128902298-1');
+  <!-- Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-128902298-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'UA-128902298-1');
+  </script>
 
-    </script>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="description" content="Harish Gandhi — Data Scientist & ML Engineer. Building data-driven solutions for social good."/>
+  <title>Harish Gandhi | Data Scientist</title>
 
-    <title>Harish Gandhi</title>
-    <meta charset="utf-8"/>
-    <meta content="width=device-width, initial-scale=1" name="viewport"/>
-    <!--[if lte IE 8]>
-    <script src="assets/js/ie/html5shiv.js"></script><![endif]-->
-    <link href="assets/css/main.css" rel="stylesheet"/>
-    <!--[if lte IE 8]>
-    <link rel="stylesheet" href="assets/css/ie8.css"/><![endif]-->
-    <!--[if lte IE 9]>
-    <link rel="stylesheet" href="assets/css/ie9.css"/><![endif]-->
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;500&family=Orbitron:wght@400;700;900&family=Rajdhani:wght@300;400;500;600&display=swap" rel="stylesheet"/>
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+
+  <!-- Cyberpunk Stylesheet -->
+  <link rel="stylesheet" href="assets/css/cyber.css"/>
 </head>
 <body>
 
-<!-- Header -->
-<div id="header">
+<!-- Particle Canvas -->
+<canvas id="particle-canvas"></canvas>
 
-    <div class="top">
+<!-- ── Navigation ── -->
+<nav id="cyber-nav">
+  <div class="nav-brand">HG<span>.</span>DEV</div>
 
-        <!-- Logo -->
-        <div id="logo">
-            <span class="image avatar48"><img alt="" src="images/avatar.jpg"/></span>
-            <h1 id="title">Harish Gandhi</h1>
-            <p>Data Scientist</p>
+  <button class="nav-toggle" aria-label="Toggle menu">&#9776;</button>
+
+  <ul class="nav-links">
+    <li><a href="#hero"><span class="nav-dot"></span> About</a></li>
+    <li><a href="#projects"> Projects</a></li>
+    <li><a href="#skills"> Skills</a></li>
+    <li><a href="#contact"> Contact</a></li>
+    <li><a href="https://medium.com/@hramachandran" target="_blank" rel="noopener"> Blog</a></li>
+  </ul>
+</nav>
+
+<!-- ── Main ── -->
+<main>
+
+  <!-- Hero -->
+  <section id="hero">
+    <div class="hero-terminal reveal">
+      <div class="terminal-titlebar">
+        <span class="tb-dot red"></span>
+        <span class="tb-dot gold"></span>
+        <span class="tb-dot green"></span>
+        <span class="tb-title">harish@portfolio:~$</span>
+      </div>
+
+      <div class="terminal-body">
+        <!-- Avatar -->
+        <div class="terminal-avatar-col">
+          <div class="avatar-wrap">
+            <img src="images/avatar.jpg" alt="Harish Gandhi"/>
+          </div>
         </div>
 
-        <!-- Nav -->
-        <nav id="nav">
-            <!--
+        <!-- Content -->
+        <div class="terminal-content">
+          <div class="prompt-line">
+            <span class="prompt-sym">▶</span>
+            <span class="prompt-cmd">whoami</span>
+          </div>
 
-                Prologue's nav expects links in one of two formats:
+          <h1 class="hero-name">
+            Harish<br/><span class="highlight">Gandhi</span>
+          </h1>
 
-                1. Hash link (scrolls to a different section within the page)
+          <div class="hero-role">
+            <span data-typewriter="Data Scientist &amp; ML Engineer"></span><span class="typewriter-caret"></span>
+          </div>
 
-                   <li><a href="#foobar" id="foobar-link" class="icon fa-whatever-icon-you-want skel-layers-ignoreHref"><span class="label">Foobar</span></a></li>
+          <p class="hero-bio">
+            IIT Chicago alum (M.S. Computer Science) passionate about turning messy data into meaningful insights.
+            I build data-driven solutions for social good — from ML pipelines and NLP models to interactive dashboards
+            and cloud-deployed applications.
+          </p>
 
-                2. Standard link (sends the user to another page/site)
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#projects">
+              <i class="fa-solid fa-folder-open"></i> View Projects
+            </a>
+            <a class="btn btn-ghost" href="mailto:hramachandran@hawk.iit.edu">
+              <i class="fa-solid fa-envelope"></i> Get in Touch
+            </a>
+          </div>
 
-                   <li><a href="http://foobar.tld" id="foobar-link" class="icon fa-whatever-icon-you-want"><span class="label">Foobar</span></a></li>
+          <div class="hero-socials">
+            <a href="https://www.linkedin.com/in/harish-gandhi" target="_blank" rel="noopener" title="LinkedIn">
+              <i class="fa-brands fa-linkedin-in"></i>
+            </a>
+            <a href="https://github.com/harishaaram" target="_blank" rel="noopener" title="GitHub">
+              <i class="fa-brands fa-github"></i>
+            </a>
+            <a href="https://twitter.com/Harishaaram91" target="_blank" rel="noopener" title="Twitter / X">
+              <i class="fa-brands fa-x-twitter"></i>
+            </a>
+            <a href="https://www.instagram.com/harishaaram/" target="_blank" rel="noopener" title="Instagram">
+              <i class="fa-brands fa-instagram"></i>
+            </a>
+            <a href="https://medium.com/@hramachandran" target="_blank" rel="noopener" title="Medium Blog">
+              <i class="fa-brands fa-medium"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
-            -->
-            <ul>
-                <li><a class="skel-layers-ignoreHref" href="#top" id="top-link"><span class="icon fa-home">Intro</span></a>
-                </li>
-                <li><a class="skel-layers-ignoreHref" href="#portfolio" id="portfolio-link"><span class="icon fa-th">Portfolio</span></a>
-                </li>
-                <li><a class="skel-layers-ignoreHref" href="#about" id="about-link"><span
-                        class="icon fa-user">About Me</span></a></li>
-                <li><a class="skel-layers-ignoreHref" href="#contact" id="contact-link"><span class="icon fa-envelope">Contact</span></a>
-                </li>
-<!--                <li><a class="skel-layers-ignoreHref" href="book_review.html" id="book-review-link"><span class="icon fa-th">Book-review</span></a>-->
-<!--                </li>-->
-                <li><a class="skel-layers-ignoreHref" href="https://medium.com/@hramachandran" id="medium-link"><span
-                        class="icon fa-file-pdf-o">Blog</span></a></li>
-                <li><a class="skel-layers-ignoreHref" href="https://www.meetup.com/PyDataChi/events/251222062/"
-                       id="talk-link"><span class="icon fa-file-pdf-o">Talks</span></a></li>
-                <li><a class="skel-layers-ignoreHref" href="https://github.com/harishaaram/Achievements"
-                       id="ach-link"><span class="icon fa-archive">Achievements</span></a></li>
-            </ul>
-        </nav>
+  <!-- Projects -->
+  <section id="projects">
+    <div class="section-header reveal">
+      <h2 data-glitch="Projects">Projects</h2>
+      <div class="line"></div>
+    </div>
+
+    <p class="reveal" style="color:var(--text-muted);margin-bottom:2.5rem;font-size:.95rem;">
+      A selection of projects spanning machine learning, NLP, data engineering, and voice interfaces.
+    </p>
+
+    <div class="projects-grid">
+
+      <article class="project-card reveal">
+        <div class="hud-corners"></div>
+        <a href="http://nbviewer.jupyter.org/github/harishaaram/Talks/blob/master/PyDataChi/Project2/PyDataChi_Project2.ipynb" target="_blank" rel="noopener">
+          <img class="project-img" src="images/rest_items.gif" alt="Calorie Count Policy"/>
+        </a>
+        <div class="project-info">
+          <h3 class="scramble">Calorie Count Policy</h3>
+          <p>Analyzed the impact of mandatory calorie labeling on restaurant menu choices using causal inference and statistical modeling. Presented at PyData Chicago.</p>
+          <div class="project-tags">
+            <span class="tag">Python</span>
+            <span class="tag">Causal Inference</span>
+            <span class="tag">Statistics</span>
+          </div>
+          <a class="project-link" href="http://nbviewer.jupyter.org/github/harishaaram/Talks/blob/master/PyDataChi/Project2/PyDataChi_Project2.ipynb" target="_blank" rel="noopener">
+            View Notebook <i class="fa-solid fa-arrow-right"></i>
+          </a>
+        </div>
+      </article>
+
+      <article class="project-card reveal">
+        <div class="hud-corners"></div>
+        <a href="https://github.com/harishaaram/RecruiterAnalytics" target="_blank" rel="noopener">
+          <img class="project-img" src="images/web_page_analytics.jpg" alt="Recruiter Analytics"/>
+        </a>
+        <div class="project-info">
+          <h3 class="scramble">Recruiter Analytics</h3>
+          <p>Built a web analytics dashboard that tracks recruiter engagement patterns on LinkedIn profiles using web scraping and data visualization pipelines.</p>
+          <div class="project-tags">
+            <span class="tag">Web Scraping</span>
+            <span class="tag">Analytics</span>
+            <span class="tag">Visualization</span>
+          </div>
+          <a class="project-link" href="https://github.com/harishaaram/RecruiterAnalytics" target="_blank" rel="noopener">
+            View on GitHub <i class="fa-solid fa-arrow-right"></i>
+          </a>
+        </div>
+      </article>
+
+      <article class="project-card reveal">
+        <div class="hud-corners"></div>
+        <a href="http://nbviewer.jupyter.org/github/ChesterHsieh/CS-584-ML-final-project/blob/master/hsieh%28A20384559%29_ramachandran%28A20377422%29_homework1.ipynb" target="_blank" rel="noopener">
+          <img class="project-img" src="images/crime_predicition.jpg" alt="Crime Prediction"/>
+        </a>
+        <div class="project-info">
+          <h3 class="scramble">Crime Prediction</h3>
+          <p>Applied supervised ML models (Random Forest, SVM, XGBoost) on Chicago crime dataset to predict crime type and location, achieving 85%+ classification accuracy.</p>
+          <div class="project-tags">
+            <span class="tag">Machine Learning</span>
+            <span class="tag">Scikit-learn</span>
+            <span class="tag">XGBoost</span>
+          </div>
+          <a class="project-link" href="http://nbviewer.jupyter.org/github/ChesterHsieh/CS-584-ML-final-project/blob/master/hsieh%28A20384559%29_ramachandran%28A20377422%29_homework1.ipynb" target="_blank" rel="noopener">
+            View Notebook <i class="fa-solid fa-arrow-right"></i>
+          </a>
+        </div>
+      </article>
+
+      <article class="project-card reveal">
+        <div class="hud-corners"></div>
+        <a href="https://harishaaram.github.io/Alexa-Skill/" target="_blank" rel="noopener">
+          <img class="project-img" src="images/alexaskill.jpg" alt="Tirukkural Alexa Skill"/>
+        </a>
+        <div class="project-info">
+          <h3 class="scramble">Tirukkural Alexa Skill</h3>
+          <p>Designed and published an Amazon Alexa skill that recites couplets from the ancient Tamil classic Tirukkural, with contextual explanations and keyword search.</p>
+          <div class="project-tags">
+            <span class="tag">Alexa SDK</span>
+            <span class="tag">Node.js</span>
+            <span class="tag">NLP</span>
+          </div>
+          <a class="project-link" href="https://harishaaram.github.io/Alexa-Skill/" target="_blank" rel="noopener">
+            Learn More <i class="fa-solid fa-arrow-right"></i>
+          </a>
+        </div>
+      </article>
+
+      <article class="project-card reveal">
+        <div class="hud-corners"></div>
+        <a href="https://harishaaram.github.io/NewsOptimism/" target="_blank" rel="noopener">
+          <img class="project-img" src="images/norm_score.gif" alt="NewsOptimism"/>
+        </a>
+        <div class="project-info">
+          <h3 class="scramble">NewsOptimism</h3>
+          <p>NLP pipeline that crawls major news outlets, applies sentiment analysis and topic modeling, then surfaces a daily "optimism score" with positive story highlights.</p>
+          <div class="project-tags">
+            <span class="tag">NLP</span>
+            <span class="tag">Sentiment Analysis</span>
+            <span class="tag">NLTK</span>
+          </div>
+          <a class="project-link" href="https://harishaaram.github.io/NewsOptimism/" target="_blank" rel="noopener">
+            Live Demo <i class="fa-solid fa-arrow-right"></i>
+          </a>
+        </div>
+      </article>
+
+      <article class="project-card reveal">
+        <div class="hud-corners"></div>
+        <a href="https://harishaaram.github.io/Patient_ImageData/" target="_blank" rel="noopener">
+          <img class="project-img" src="images/diagozer.jpg" alt="Patient Activity Tracker"/>
+        </a>
+        <div class="project-info">
+          <h3 class="scramble">Patient Activity Tracker</h3>
+          <p>Computer vision system for monitoring patient activity and posture in clinical settings, using image classification and time-series anomaly detection.</p>
+          <div class="project-tags">
+            <span class="tag">Computer Vision</span>
+            <span class="tag">TensorFlow</span>
+            <span class="tag">Healthcare</span>
+          </div>
+          <a class="project-link" href="https://harishaaram.github.io/Patient_ImageData/" target="_blank" rel="noopener">
+            Learn More <i class="fa-solid fa-arrow-right"></i>
+          </a>
+        </div>
+      </article>
+
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills">
+    <div class="section-header reveal">
+      <h2 data-glitch="Skills">Skills</h2>
+      <div class="line"></div>
+    </div>
+
+    <div class="skills-grid">
+
+      <div class="skill-group reveal">
+        <div class="skill-group-title">Languages</div>
+        <div class="skill-chips">
+          <span class="chip">Python</span>
+          <span class="chip">R</span>
+          <span class="chip">SQL</span>
+          <span class="chip">JavaScript</span>
+          <span class="chip">Bash</span>
+        </div>
+      </div>
+
+      <div class="skill-group reveal">
+        <div class="skill-group-title">ML / AI</div>
+        <div class="skill-chips">
+          <span class="chip">Scikit-learn</span>
+          <span class="chip">TensorFlow</span>
+          <span class="chip">PyTorch</span>
+          <span class="chip">XGBoost</span>
+          <span class="chip">NLTK</span>
+          <span class="chip">spaCy</span>
+          <span class="chip">Hugging Face</span>
+        </div>
+      </div>
+
+      <div class="skill-group reveal">
+        <div class="skill-group-title">Data Engineering</div>
+        <div class="skill-chips">
+          <span class="chip">Pandas</span>
+          <span class="chip">NumPy</span>
+          <span class="chip">Spark</span>
+          <span class="chip">Airflow</span>
+          <span class="chip">dbt</span>
+          <span class="chip">ETL Pipelines</span>
+        </div>
+      </div>
+
+      <div class="skill-group reveal">
+        <div class="skill-group-title">Visualization</div>
+        <div class="skill-chips">
+          <span class="chip">Matplotlib</span>
+          <span class="chip">Seaborn</span>
+          <span class="chip">Plotly</span>
+          <span class="chip">Tableau</span>
+          <span class="chip">D3.js</span>
+        </div>
+      </div>
+
+      <div class="skill-group reveal">
+        <div class="skill-group-title">Cloud & DevOps</div>
+        <div class="skill-chips">
+          <span class="chip">AWS</span>
+          <span class="chip">GCP</span>
+          <span class="chip">Docker</span>
+          <span class="chip">Kubernetes</span>
+          <span class="chip">GitHub Actions</span>
+          <span class="chip">CI/CD</span>
+        </div>
+      </div>
+
+      <div class="skill-group reveal">
+        <div class="skill-group-title">Databases</div>
+        <div class="skill-chips">
+          <span class="chip">PostgreSQL</span>
+          <span class="chip">MySQL</span>
+          <span class="chip">MongoDB</span>
+          <span class="chip">Redis</span>
+          <span class="chip">Elasticsearch</span>
+        </div>
+      </div>
 
     </div>
 
+    <blockquote class="reveal">
+      "The only way to do great work is to love what you do."
+      <cite>— Steve Jobs</cite>
+    </blockquote>
+  </section>
 
-</div>
+  <!-- Contact -->
+  <section id="contact">
+    <div class="section-header reveal">
+      <h2 data-glitch="Contact">Contact</h2>
+      <div class="line"></div>
+    </div>
 
-<!-- Main -->
-<div id="main">
+    <div class="contact-panel reveal">
+      <p class="contact-intro">
+        I'm always open to discussing data science projects, research collaborations, or just connecting.
+        Reach out through any of the channels below.
+      </p>
 
-    <!-- Intro -->
-    <section class="one dark cover" id="top">
-        <div class="container">
+      <div class="contact-links">
+        <a class="contact-link" href="https://www.linkedin.com/in/harish-gandhi" target="_blank" rel="noopener">
+          <i class="fa-brands fa-linkedin-in"></i> LinkedIn
+        </a>
+        <a class="contact-link" href="https://github.com/harishaaram" target="_blank" rel="noopener">
+          <i class="fa-brands fa-github"></i> GitHub
+        </a>
+        <a class="contact-link" href="https://twitter.com/Harishaaram91" target="_blank" rel="noopener">
+          <i class="fa-brands fa-x-twitter"></i> Twitter / X
+        </a>
+        <a class="contact-link" href="https://www.instagram.com/harishaaram/" target="_blank" rel="noopener">
+          <i class="fa-brands fa-instagram"></i> Instagram
+        </a>
+        <a class="contact-link" href="mailto:hramachandran@hawk.iit.edu">
+          <i class="fa-solid fa-envelope"></i> Email
+        </a>
+        <a class="contact-link" href="https://medium.com/@hramachandran" target="_blank" rel="noopener">
+          <i class="fa-brands fa-medium"></i> Medium Blog
+        </a>
+        <a class="contact-link" href="https://www.meetup.com/PyDataChi/events/251222062/" target="_blank" rel="noopener">
+          <i class="fa-solid fa-microphone"></i> Talks
+        </a>
+        <a class="contact-link" href="https://github.com/harishaaram/Achievements" target="_blank" rel="noopener">
+          <i class="fa-solid fa-trophy"></i> Achievements
+        </a>
+      </div>
+    </div>
+  </section>
 
-            <header>
-                <h2 class="alt">Hi! I'm Harish</h2>
-                <p>Graduate student specializing in Algorithm Design and Data science<br/></p>
-            </header>
-
-            <footer>
-                <a class="button scrolly" href="#portfolio">Portfolio</a>
-            </footer>
-
-        </div>
-    </section>
-
-    <!-- Portfolio -->
-    <section class="two" id="portfolio">
-        <div class="container">
-
-            <header>
-                <h2>Projects</h2>
-            </header>
-
-            <p>Here are some of my projects that I've been working on.Click on the image to dive deep into my
-                projects!</p>
-
-            <div class="row">
-                <div class="4u 12u$(mobile)">
-
-                    <article class="item">
-                        <a class="image fit"
-                           href="http://nbviewer.jupyter.org/github/harishaaram/Talks/blob/master/PyDataChi/Project2/PyDataChi_Project2.ipynb"><img alt="" src="images/rest_items.gif"/></a>
-                        <header>
-                            <h3><u>Effect of Calorie-Count Policy!</u></h3>
-                        </header>
-                    </article>
-
-                    <article class="item">
-
-                        <a class="image fit" href="https://github.com/harishaaram/RecruiterAnalytics"><img
-                                alt="" src="images/web_page_analytics.jpg"/></a>
-                        <header>
-                            <h3><u>Recruiter Analytics</u></h3>
-                        </header>
-                    </article>
-
-
-                </div>
-                <div class="4u 12u$(mobile)">
-
-                    <article class="item">
-                        <a class="image fit"
-                           href="http://nbviewer.jupyter.org/github/ChesterHsieh/CS-584-ML-final-project/blob/master/hsieh%28A20384559%29_ramachandran%28A20377422%29_homework1.ipynb"><img alt="" src="images/crime_predicition.jpg"/></a>
-                        <header>
-                            <h3><u>Crime Prediction</u></h3>
-                        </header>
-                    </article>
-
-                    <article class="item">
-                        <a class="image fit"
-                           href="https://harishaaram.github.io/Alexa-Skill/"><img
-                                alt="" src="images/alexaskill.jpg"/></a>
-                        <header>
-                            <h3><u>Tirukkural Alexa Skill</u></h3>
-                        </header>
-                    </article>
-
-                </div>
-                <div class="4u$ 12u$(mobile)">
-
-
-                    <article class="item">
-                        <a class="image fit" href="https://harishaaram.github.io/NewsOptimism/"><img
-                                alt="" src="images/norm_score.gif"/></a>
-                        <header>
-                            <h3><u>NewsOptimism</u></h3>
-                        </header>
-
-                    </article>
-
-                    <article class="item">
-                        <a class="image fit" href="https://harishaaram.github.io/Patient_ImageData/"><img
-                                alt="" src="images/diagozer.jpg"/></a>
-                        <header>
-                            <h3><u>Patient Activity Tracker</u></h3>
-                        </header>
-                    </article>
-
-                </div>
-            </div>
-
-        </div>
-    </section>
-
-    <!-- About Me -->
-    <section class="three" id="about">
-        <div class="container">
-
-            <header>
-                <h2>About Me</h2>
-            </header>
-
-            <a class="image featured" href="#"><img alt="" src="images/aboutme.jpg"/></a>
-
-            <p>My name is Harish Gandhi, and I graduated from the Illinois Institute of Technology with a Master's
-                degree in Computer Science. My
-                interests range from data analysis to politics. I keep myself updated with new technologies by building
-                projects around them.
-                I am also passionate about building data driven solutions for social good.
-            </p>
-            <p>
-                When I’m not playing with data, I’m usually trekking, watching movies or reading books.
-                If you’d like to get in touch, feel free to connect with me through any of the social links below.
-            </p>
-
-            <blockquote><h1>The only way to do great work is to love what you do
-
-                - Steve Jobs </h1></blockquote>
-        </div>
-    </section>
-
-    <!-- Contact -->
-    <section class="four" id="contact">
-        <div class="container">
-
-            <header>
-                <h2>Social Links</h2>
-            </header>
-
-            <div class="bottom">
-
-                <!-- Social Icons -->
-                <ul class="icons">
-                    <li><a class="icon fa-linkedin" href="https://www.linkedin.com/in/harish-gandhi"><span
-                            class="label">Linkedin</span></a></li>
-                    <li><a class="icon fa-github" href="https://github.com/harishaaram"><span
-                            class="label">Github</span></a></li>
-                    <li><a class="icon fa-instagram" href="https://www.instagram.com/harishaaram/"><span class="label">Instagram</span></a>
-                    </li>
-                    <li><a class="icon fa-twitter" href="https://twitter.com/Harishaaram91"><span
-                            class="label">Twitter</span></a></li>
-                    <li><a class="icon fa-envelope" href="mailto:hramachandran@hawk.iit.edu"><span
-                            class="label">Email</span></a></li>
-                </ul>
-
-            </div>
-
-        </div>
-    </section>
-
-</div>
+</main>
 
 <!-- Footer -->
-<div id="footer">
+<footer>
+  <span class="cyan">&copy; 2024 Harish Gandhi</span> &nbsp;·&nbsp; Built with passion &amp; pixels
+</footer>
 
-    <!-- Copyright -->
-    <ul class="copyright">
-        <li>&copy; Harish gandhi. All rights reserved.</li>
-        <li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
-    </ul>
-
-</div>
-
-<!-- Scripts -->
-<script src="assets/js/jquery.min.js"></script>
-<script src="assets/js/jquery.scrolly.min.js"></script>
-<script src="assets/js/jquery.scrollzer.min.js"></script>
-<script src="assets/js/skel.min.js"></script>
-<script src="assets/js/util.js"></script>
-<!--[if lte IE 8]>
-<script src="assets/js/ie/respond.min.js"></script><![endif]-->
-<script src="assets/js/main.js"></script>
-
+<!-- JS -->
+<script src="assets/js/cyber.js"></script>
 </body>
 </html>
