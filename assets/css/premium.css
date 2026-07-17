@@ -64,7 +64,7 @@ body {
   margin: 0 auto;
 }
 
-section { padding: 7.5rem 0 2rem; }
+section { padding: 5.5rem 0 2rem; }
 
 /* ── Navigation ── */
 #nav {
@@ -157,10 +157,9 @@ section { padding: 7.5rem 0 2rem; }
 
 /* ── Hero ── */
 #hero {
-  min-height: 100vh;
   display: flex;
   align-items: center;
-  padding: 8rem 0 4rem;
+  padding: 7.5rem 0 3rem;
   position: relative;
 }
 
@@ -204,11 +203,11 @@ section { padding: 7.5rem 0 2rem; }
 
 .hero-name {
   font-family: var(--serif);
-  font-size: clamp(3.2rem, 7.5vw, 5.6rem);
+  font-size: clamp(2.9rem, 6vw, 4.6rem);
   font-weight: 480;
-  line-height: 1.02;
+  line-height: 1.05;
   letter-spacing: -0.02em;
-  margin-bottom: 1.4rem;
+  margin-bottom: 1.3rem;
 }
 .hero-name em {
   font-style: italic;
@@ -221,20 +220,11 @@ section { padding: 7.5rem 0 2rem; }
 
 .hero-role {
   font-family: var(--mono);
-  font-size: 0.95rem;
+  font-size: 0.9rem;
+  letter-spacing: 0.02em;
   color: var(--text-soft);
-  margin-bottom: 1.6rem;
-  min-height: 1.6em;
+  margin-bottom: 1.5rem;
 }
-.hero-role .caret {
-  display: inline-block;
-  width: 9px; height: 1.15em;
-  background: var(--gold);
-  vertical-align: text-bottom;
-  margin-left: 4px;
-  animation: blink 1s steps(1) infinite;
-}
-@keyframes blink { 50% { opacity: 0; } }
 
 .hero-bio {
   max-width: 56ch;
@@ -363,17 +353,17 @@ section { padding: 7.5rem 0 2rem; }
   grid-template-columns: repeat(4, 1fr);
   border-top: 1px solid var(--line-soft);
   border-bottom: 1px solid var(--line-soft);
-  margin-top: 5rem;
+  margin-top: 3.6rem;
 }
 .stat {
-  padding: 1.9rem 1rem;
+  padding: 1.6rem 1rem;
   text-align: center;
   border-left: 1px solid var(--line-soft);
 }
 .stat:first-child { border-left: none; }
 .stat-num {
   font-family: var(--serif);
-  font-size: 2.1rem;
+  font-size: 1.8rem;
   color: var(--gold);
   line-height: 1.1;
 }
@@ -458,6 +448,15 @@ section { padding: 7.5rem 0 2rem; }
   font-weight: 300;
   font-size: 0.98rem;
   margin-bottom: 1.6rem;
+}
+
+.feature-meta {
+  margin-top: 1.2rem;
+  font-family: var(--mono);
+  font-size: 0.72rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--text-faint);
 }
 
 .feature-visual {
@@ -740,26 +739,6 @@ section { padding: 7.5rem 0 2rem; }
   font-weight: 300;
 }
 
-blockquote.quote {
-  margin-top: 2.6rem;
-  padding: 2rem 2.4rem;
-  border-left: 2px solid var(--gold);
-  background: rgba(232, 200, 128, 0.04);
-  border-radius: 0 var(--radius) var(--radius) 0;
-  font-family: var(--serif);
-  font-style: italic;
-  font-size: 1.12rem;
-  color: var(--text-soft);
-}
-blockquote.quote cite {
-  display: block;
-  margin-top: 0.7rem;
-  font-family: var(--mono);
-  font-style: normal;
-  font-size: 0.76rem;
-  color: var(--gold-dim);
-}
-
 /* ── Contact ── */
 #contact { padding-bottom: 6rem; }
 
@@ -788,6 +767,19 @@ blockquote.quote cite {
   max-width: 52ch;
   margin: 0 auto 2.4rem;
 }
+
+.contact-email {
+  margin-top: 1.1rem;
+  font-family: var(--mono);
+  font-size: 0.85rem;
+}
+.contact-email a {
+  color: var(--gold);
+  text-decoration: none;
+  border-bottom: 1px solid var(--gold-dim);
+  padding-bottom: 2px;
+}
+.contact-email a:hover { color: var(--gold-bright); border-bottom-color: var(--gold-bright); }
 
 .contact-channels {
   display: flex;
@@ -834,30 +826,32 @@ footer {
 .footer-inner a { color: var(--text-soft); text-decoration: none; }
 .footer-inner a:hover { color: var(--gold); }
 
-/* ── Reveal animations ── */
-.reveal {
+/* ── Reveal animations ──
+   Gated behind html.js (added by premium.js) so content is
+   always visible when JavaScript is unavailable. */
+.js .reveal {
   opacity: 0;
-  transform: translateY(28px);
-  transition: opacity 0.9s var(--ease), transform 0.9s var(--ease);
+  transform: translateY(14px);
+  transition: opacity 0.55s var(--ease), transform 0.55s var(--ease);
 }
-.reveal.in {
+.js .reveal.in {
   opacity: 1;
   transform: none;
 }
-.reveal.d1 { transition-delay: 0.08s; }
-.reveal.d2 { transition-delay: 0.16s; }
-.reveal.d3 { transition-delay: 0.24s; }
+.js .reveal.d1 { transition-delay: 0.06s; }
+.js .reveal.d2 { transition-delay: 0.12s; }
+.js .reveal.d3 { transition-delay: 0.18s; }
 
 @media (prefers-reduced-motion: reduce) {
-  .reveal { opacity: 1; transform: none; transition: none; }
+  .js .reveal { opacity: 1; transform: none; transition: none; }
   html { scroll-behavior: auto; }
 }
 
 /* ── Responsive ── */
 @media (max-width: 980px) {
-  .hero-grid { grid-template-columns: 1fr; gap: 3.4rem; }
-  .hero-portrait { order: -1; }
-  .portrait-frame { width: min(240px, 62vw); }
+  .hero-grid { grid-template-columns: 1fr; gap: 3rem; }
+  .hero-portrait { order: 2; margin-top: 0.6rem; }
+  .portrait-frame { width: min(220px, 58vw); }
   .stats-strip { grid-template-columns: repeat(2, 1fr); }
   .stat:nth-child(3) { border-left: none; }
   .stat { border-top: 1px solid var(--line-soft); }
@@ -869,7 +863,8 @@ footer {
 }
 
 @media (max-width: 680px) {
-  section { padding: 5rem 0 1.5rem; }
+  section { padding: 4rem 0 1.5rem; }
+  #hero { padding-top: 6.5rem; }
   .nav-links {
     position: fixed;
     top: 64px; right: 3vw;
